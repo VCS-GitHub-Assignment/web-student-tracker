@@ -61,20 +61,20 @@ public class StudentControllerServlet extends HttpServlet {
 				listStudents(request, response);
 				break;
 				
-			case "ADDy":
+			case "ADD":
 				addStudent(request, response);
 				break;
 				
 				
-			case "LOADy":
+			case "LOAD":
 				loadStudent(request, response);
 				break;
 				
-			case "UPDATEy":
+			case "UPDATE":
 				updateStudent(request, response);
 				break;
 			
-			case "DELETEy":
+			case "DELETE":
 				deleteStudent(request, response);
 				break;
 				

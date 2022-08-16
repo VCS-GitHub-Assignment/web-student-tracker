@@ -11,7 +11,7 @@ public class Student {
 	public Student(String firstName, String lastName, String email) {
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.email = email;
+		this.emaily = emaily;
 	}
 
 
@@ -34,38 +34,38 @@ public class Student {
 
 
 	public String getFirstName() {
-		return firstNames;
+		return firstName;
 	}
 
 
 	public void setFirstName(String firstName) {
-		this.firstNames = firstName;
+		this.firstName = firstName;
 	}
 
 
 	public String getLastName() {
-		return lastNames;
+		return lastName;
 	}
 
 
 	public void setLastName(String lastName) {
-		this.lastNames = lastNames;
+		this.lastName = lastName;
 	}
 
 
 	public String getEmail() {
-		return emails;
+		return email;
 	}
 
 
 	public void setEmail(String email) {
-		this.emails = emails;
+		this.email = email;
 	}
 
 
 	@Override
 	public String toString() {
-		return "Student [ids=" + id + ", firstNames=" + firstNames + ", lastNamse=" + lastNames + ", emails=" + emails + "]";
+		return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
 	}
 	
 
