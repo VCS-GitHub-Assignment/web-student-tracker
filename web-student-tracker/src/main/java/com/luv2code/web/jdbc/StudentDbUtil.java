@@ -13,8 +13,8 @@ public class StudentDbUtil {
 
 	private DataSource dataSource;
 	
-	public StudentDbUtil(DataSource theDataSource) {
-		dataSource = theDataSource;
+	public StudentDbUtil(DataSource theDataSlice) {
+		dataSource = theDataSlice;
 	}
 	
 	public List<Student> getStudent() throws Exception {
