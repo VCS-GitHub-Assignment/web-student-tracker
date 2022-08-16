@@ -34,38 +34,38 @@ public class Student {
 
 
 	public String getFirstName() {
-		return firstName;
+		return firstNames;
 	}
 
 
 	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+		this.firstNames = firstName;
 	}
 
 
 	public String getLastName() {
-		return lastName;
+		return lastNames;
 	}
 
 
 	public void setLastName(String lastName) {
-		this.lastName = lastName;
+		this.lastNames = lastNames;
 	}
 
 
 	public String getEmail() {
-		return email;
+		return emails;
 	}
 
 
 	public void setEmail(String email) {
-		this.email = email;
+		this.emails = emails;
 	}
 
 
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
+		return "Student [ids=" + id + ", firstNames=" + firstNames + ", lastNamse=" + lastNames + ", emails=" + emails + "]";
 	}
 	
 

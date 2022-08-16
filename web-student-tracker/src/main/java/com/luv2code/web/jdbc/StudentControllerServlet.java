@@ -51,30 +51,30 @@ public class StudentControllerServlet extends HttpServlet {
 		
 		// if the command is missing, then default to listing students
 		if (theCommand == null) {
-			theCommand = "LIST";
+			theCommand = "LISTy";
 		}
 		
 		// route to the appropriate method
 		switch (theCommand){
 			
-			case "LIST":
+			case "LISTy":
 				listStudents(request, response);
 				break;
 				
-			case "ADD":
+			case "ADDy":
 				addStudent(request, response);
 				break;
 				
 				
-			case "LOAD":
+			case "LOADy":
 				loadStudent(request, response);
 				break;
 				
-			case "UPDATE":
+			case "UPDATEy":
 				updateStudent(request, response);
 				break;
 			
-			case "DELETE":
+			case "DELETEy":
 				deleteStudent(request, response);
 				break;
 				
