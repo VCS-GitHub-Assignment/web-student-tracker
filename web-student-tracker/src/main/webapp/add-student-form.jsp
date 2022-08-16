@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Add Student</title>
+	<title>Add New Student</title>
 	
 	<link type="text/css" rel="stylesheet" href="css/style.css">
 	<link type="text/css" rel="stylesheet" href="css/add-student-style.css">
